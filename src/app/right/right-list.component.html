@@ -1,0 +1,89 @@
+<aside class='gridS4'>
+
+    <div [hidden]='submitted'>
+        <h4 class='list-caption'>form test</h4>
+        <form (ngSubmit)='onSubmit()' 
+              action=""
+              #powerForm='ngForm'>
+            <ul>
+                <li>
+                    <label for="name">Name</label>
+                    <input type="text" id='name'
+                           required
+                           [(ngModel)]='model.name'
+                           name="name"
+                           #name = 'ngModel'>
+                    <div [hidden]='name.vaild || name.pristine'>
+                        Name is required
+                    </div>
+                </li>
+                <li>
+                    <label for="alterEgo">AlterEgo</label>
+                    <input type="text" id='alterEgo'>
+                </li>
+
+                   <li>
+                    <label for="power">Power</label>
+                    <select>
+                        <option *ngFor="let pow of pows" [value]="pow">{{pow}}</option>
+                    </select>
+                </li>
+            </ul>
+            <button type="button" (click) ='newPower(); powerForm.reset()'>New Power</button>
+            <button type="submit"
+                    [disabled]='!powerForm.form.valid'>Submit</button>
+            
+        </form>
+
+        <h2>You submitted the following:</h2>
+  <div class="row">
+    <div class="col-xs-3">Name</div>
+    <div class="col-xs-9  pull-left">{{ model.name }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Alter Ego</div>
+    <div class="col-xs-9 pull-left">{{ model.alterEgo }}</div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3">Power</div>
+    <div class="col-xs-9 pull-left">{{ model.power }}</div>
+  </div>
+  <br>
+  <button class="btn btn-default" (click)="submitted=false">Edit</button>
+
+
+    </div>
+    
+
+    <div class="space30"></div>
+
+    <input #box 
+        (keyup.enter)='onEnter(box.value)' 
+        (blur) = "onEnter(box.value); box.value='' "
+        type="text" 
+        name="" 
+        value="">
+    <button (click)='onEnter(box.value)' 
+            type="">Add</button>
+    <p>{{value}}</p>
+
+    <div class="space30"></div>
+
+    <h4 class='list-caption'>最新文章</h4>
+    <ul>
+        <li *ngFor="let list of articles">    
+            <a [href]='list.href' class='list-title'>{{list.title}}</a>
+            <div class="clear"></div>
+            <span>{{list.date}}</span> / <span class="category">{{list.category}}</span>
+        </li>
+    </ul>   
+
+    <div class="space30"></div> 
+
+    <h4 class='list-caption'>文章分類</h4>
+    <ul>
+        <li *ngFor="let sort of sorts"><a href="javascript:;">{{sort}}</a></li>
+    </ul>
+</aside>
+
+

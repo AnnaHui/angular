@@ -1,0 +1,31 @@
+$default-color: #686868;
+$link-color: #97c139;
+body {
+    font-family: 'Open Sans', Microsoft JhengHei, sans-serif;
+    color: $default-color;
+    font-size: 12px;
+    line-height: 1.5;
+    a {
+        color: $default-color;
+        text-decoration: none;
+        &:hover {
+            color: $link-color;
+        }        
+    }
+}
+
+.dotted-bottom {
+    border-bottom: 1px dotted #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+.gray-color {
+    color: #ccc;
+}
+.category {
+    color: #35a7a7;
+}
+.space50 {
+    height: 50px;
+    clear: both
+}

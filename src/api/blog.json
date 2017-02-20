@@ -1,0 +1,50 @@
+[
+    {
+        "imageurl": "assets/images/blog0.jpg",
+        "title":  "群悅創意與您一起迎接『猴雞年』!",
+        "date": "24 Jan 2017",
+        "category": "About ZealMass | 關於群悅",
+        "summary": "親愛的夥伴們，雞年即將到來，群悅與您一起送猴迎雞，祝福各位在新的一年都有『好時機』!",
+        "href": "http://zealmass.com/blog.aspx"
+    },
+    {
+        "imageurl": "assets/images/blog1.jpg",
+        "title":  "聖誕送暖 新年迎春",
+        "date": "23 Dec 2016",
+        "category": "About ZealMass | 關於群悅",
+        "summary": "耶誕節的腳步近了，2017年也悄然來臨，親愛的您，是否也有歲月如梭的感嘆呢？",
+        "href": "http://zealmass.com/blog.aspx"
+    },
+    {
+        "imageurl": "assets/images/blog2.jpg",
+        "title":  "尋找視覺設計師",
+        "date": "15 Nov 2016",
+        "category": "About ZealMass | 關於群悅",
+        "summary": "群悅數位 尋找視覺設計師!!針對各類軟體介面以及網站視覺設計,我們預計需要招募視覺專長的夥伴加入我們。",
+        "href": "http://zealmass.com/blog.aspx"
+    },
+    {
+        "imageurl": "assets/images/blog3.jpg",
+        "title":  "銘傳大學數位媒體設計學系課程諮詢委員",
+        "date": "08 Nov 2016",
+        "category": "About ZealMass | 關於群悅",
+        "summary": "群悅數位創意的創意總監吳誌清(Jerry)先生，很榮幸受邀擔任銘傳大學105學年度數位媒體設計學系課程諮詢委員一職，以業界及專業的角度提供校方更多元的教育建議方向，針對現階段的產業需求及未來的趨勢，給予校方在人才培訓的方面能有最實用的建議。",
+        "href": "http://zealmass.com/blog.aspx"
+    },
+    {
+        "imageurl": "assets/images/blog4.jpg",
+        "title":  "中秋佳節，祝福您 佳節愉快~~",
+        "date": "14 Sep 2016",
+        "category": "About ZealMass | 關於群悅",
+        "summary": "群悅數位創意為您特地到月球上帶回最好的伴手禮 '月球上的月餅'!! 中秋佳節，祝福您 佳節愉快~~",
+        "href": "http://zealmass.com/blog.aspx"
+    },
+    {
+        "imageurl": "assets/images/blog5.jpg",
+        "title":  "五月五、慶端午!!放暑假囉~~",
+        "date": " 07 JUN 2016",
+        "category": "About ZealMass | 關於群悅",
+        "summary": "炎炎夏日!!都快要融化了~趁著端午連假可以好好的避暑一下了!!群悅數位創意，祝福各位端午佳節快樂~~!!",
+        "href": "http://zealmass.com/blog.aspx"
+    }
+]

@@ -1,0 +1,20 @@
+<div class="gridS8">
+    <div class="article-list grid12" *ngFor="let article of articles">
+        <div class="grid12">
+            <img class='article-image' [src]="article.imageurl" alt="">
+            
+            <div class="article">
+                <div class="dotted-bottom">
+                    <span class='gray-color'>{{article.date}}</span> /
+                    <span class='category'>{{article.category}}</span>
+                </div>
+                
+                <h4>{{article.title}}</h4>
+                <p>{{article.summary}}</p>
+                <div class="clear"></div>
+                <a class='more' [href]="article.href">More</a>
+            </div>
+            
+        </div>
+    </div>
+</div>
