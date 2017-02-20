@@ -1,4 +1,5 @@
 <aside class='gridS4'>
+<<<<<<< HEAD
 
     <div [hidden]='submitted'>
         <h4 class='list-caption'>form test</h4>
@@ -57,6 +58,8 @@
 
     <div class="space30"></div>
 
+=======
+>>>>>>> origin/master
     <input #box 
         (keyup.enter)='onEnter(box.value)' 
         (blur) = "onEnter(box.value); box.value='' "
@@ -66,9 +69,13 @@
     <button (click)='onEnter(box.value)' 
             type="">Add</button>
     <p>{{value}}</p>
+<<<<<<< HEAD
 
     <div class="space30"></div>
 
+=======
+    <div class="space30"></div>
+>>>>>>> origin/master
     <h4 class='list-caption'>最新文章</h4>
     <ul>
         <li *ngFor="let list of articles">    
@@ -79,7 +86,10 @@
     </ul>   
 
     <div class="space30"></div> 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/master
     <h4 class='list-caption'>文章分類</h4>
     <ul>
         <li *ngFor="let sort of sorts"><a href="javascript:;">{{sort}}</a></li>

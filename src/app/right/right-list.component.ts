@@ -27,6 +27,7 @@ export class RightListComponent implements OnInit {
     ];
     constructor( private ds: DataService ) {}
 
+<<<<<<< HEAD
     model = new Article('a', 'b', 'c', 'd', 'e', 'F');
 
     submitted = false;
@@ -39,6 +40,8 @@ export class RightListComponent implements OnInit {
         this.model = new Article('a', '', '', '', 'e', 'F');
     }
 
+=======
+>>>>>>> origin/master
     //search
     onEnter(value: string){
         if(value){
