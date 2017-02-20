@@ -1,0 +1,21 @@
+header {
+    padding-top: 10px;
+    border-bottom: 1px solid #97c139;
+    width: 100%;
+    float: left;
+    position: fixed;
+    background: white;
+    z-index: 999;
+}
+#logo {
+    float: left;
+}
+nav {
+    float: right;
+    li {
+        font-size: 14px;
+        line-height: 50px;
+        float: left;
+        margin-left: 15px;
+    }
+}
